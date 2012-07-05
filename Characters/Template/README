@@ -1,0 +1,11 @@
+The character sheet template uses python scripts inside of a latex document 
+to output a Pathfinder Character Sheet.  
+
+STATUS:
+
+The project is currently in pieces, I am in the middle of transitioning it from
+sagetex, which not everyone has and is a pain to get running, to just python.  
+Hopefully this move will allow for more usablity.  
+
+If you do not fear the sagetex, feel free to grab the src file from the already completed druid
+character sheet.

@@ -1,0 +1,750 @@
+\documentclass[10pt]{article}
+\usepackage{sagetex}
+\usepackage{tabularx}
+\usepackage[cm]{fullpage}
+
+\begin{document}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Define Bios
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newcommand{\charName}{Dearth}
+\newcommand{\charRace}{Oakling}
+\newcommand{\charAge}{30}
+\newcommand{\charGod}{Leshii}
+\newcommand{\charAlign}{N}
+\newcommand{\charSize}{Medium}
+\newcommand{\class}{10 Druid / 10 Alchemist}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Define stats
+% 15, 16, 18, 10, 15, 14
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{sagesilent}
+
+	characterLevel = 10
+
+	str = 14
+	dex = 15
+	con = 10
+	int = 18
+	wis = 18
+	cha = 13
+
+	miscStr = 0
+	miscDex = -1
+	miscCon = 0
+	miscInt = 0
+	miscWis = 0
+	miscCha = 0
+
+	bab = 7
+
+	will = 7
+	fort = 7
+	refl = 7
+
+	hp = 64
+	initBonus = 4
+
+	strMod = floor((str - 10)/2) + miscStr
+	dexMod = floor((dex - 10)/2) + miscDex
+	conMod = floor((con - 10)/2) + miscCon
+	intMod = floor((int - 10)/2) + miscInt
+	wisMod = floor((wis - 10)/2) + miscWis
+	chaMod = floor((cha - 10)/2) + miscCha
+
+\end{sagesilent}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Define Armor
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{sagesilent}
+
+	armorBonus = 11
+	naturalArmor = 0
+	shieldBonus = 2
+	miscArmor = -1
+
+\end{sagesilent}
+
+\newcommand{\armOneName}{Dragonscale Plate}
+\newcommand{\armTwoName}{Shield}
+\newcommand{\armThreeName}{Ring of Protection}
+\newcommand{\armOneBonus}{+9 Armor}
+\newcommand{\armTwoBonus}{+2 Shield}
+\newcommand{\armThreeBonus}{+2 Armor}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Define Weapon
+% Some of the weapons feats are listed
+% set = 1 if you have it, else leave = 0
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{sagesilent}
+
+	wp1AttBonus = 0
+	wp1DamBonus = strMod
+	wp1Range = 0
+	wp1CritMod = 2
+	
+	wp2AttBonus = 1
+	wp2DamBonus = intMod
+	wp2Range = 20
+	wp2CritMod = 2 
+
+\end{sagesilent}
+
+\newcommand{\wpOneName}{Club}
+\newcommand{\wpTwoName}{Bomb}
+\newcommand{\wpOneDam}{1d6}
+\newcommand{\wpTwoDam}{5d6}
+\newcommand{\wpOneType}{Blunt}
+\newcommand{\wpTwoType}{Splash(fire)}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% List class skills, feats and racial traits
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newcommand{\feats}{
+	\begin{itemize}
+		\item \textbf{Shielding Sap:} Increase the AC bonus to \textsc{Protective Sap}
+				by 2
+		\item \textbf{Throw Anything:} +1 on attack rolls for splash weapons.
+		\item \textbf{Brew Potion:} Can use craft checks to brew potions.
+		\item \textbf{Improved Initiative:} +4 to Initiative.
+		\item \textbf{Leadership:} Gain followers and cohoarts.
+		\item \textbf{Natural Spell:} Cast spells while wild shaped.
+		\item \textbf{Eldritch Claws:} Natural weapons count as silver and magic.
+		\item \textbf{Die for Your Master:} Tumor Familiar may take a killing blow.
+				Reflex DC: Damage taken.  If success, tumor takes full damage, otherwise
+				it takes half and you take half.
+	\end{itemize}
+}
+
+\newcommand{\racetr}{
+	\begin{itemize}
+		\item \textbf{Protective Sap:} when HP is reduced to 25\%, AC increases by 4
+		\item \textbf{Rooted Foot:} Can stand up from prone as a swift action
+		\item \textbf{Sun Heal:} Once per day, can use sunlight to regenerate 2/level HP
+				and gain a full meal of nourishment
+		\item \textbf{Humanoid Plant:} +2 racial bonus to saving throws against mind-affecting 
+				effects, paralysis, poison, polymorph and stun. Also gains immunity to sleep.
+	\end{itemize}
+}
+
+\newcommand{\classab}{
+	\paragraph{Druid}
+	\begin{itemize}
+		\item \textbf{Nature Bond:} Plant Domain
+		\item \textbf{Nature Sense:} +2 bonus to Knowledge(Nature) and Survival
+		\item \textbf{Woodland Stride:} Can move through underbrush without hinderance 
+		\item \textbf{Resist Nature's Lure:} +4 to saving throws against spell-like
+				and supernatural abilities of Fey
+		\item \textbf{Wild Shape:} (4/day) Counts as Elemental Body III, Beast Shape III or Plant Shape II
+		\item \textbf{Venom Immunity:} Immunity to all poisons
+	\end{itemize}
+	\paragraph{Alchemist}
+	\begin{itemize}
+		\item \textbf{Bombs:} (\(\sage{10+intMod}\)/day) 20ft range. 5d6 + \(\sage{intMod}\), splash is 
+				mininum damage. DC:\(\sage{10 + (characterLevel/2) + intMod}\) to avoid spash damage. 
+		\item \textbf{Mutagen:} (1/day) Gives +2 Natural AC, +4 to physical stat, and -2 to asociated 
+				mental stat for 10 min/level.
+		\item \textbf{Swift Alchemy:} Can create alchemical items in half the normal time.
+		\item \textbf{Swift Poison:} Can apply poison as a swift action.
+		\item \textbf{Alchemical Simulacrum:} Creates a \textit{Lesser Simulacrum} 
+		\item \textbf{Doppleganger Simulacrum:} Create a doppleganger.  Can posses the doppleganger as a 
+				standard action.  Unused bodies, including the original, do not rot.
+		\item \textbf{Infusions:} Can give extracts to others.
+		\item \textbf{Fast Bombs:} Can create enough bombs to use for a full round attack
+		\item \textbf{Tumor Familiar:} KITTY!!!!!!! 
+	\end{itemize}
+}
+
+\newcommand{\spells}{
+	\subsubsection*{Druid spells}
+	\begin{tabularx}{\textwidth}{|X|X|X|X|}
+		\hline
+		Level & Spells per day & Spells Known & Spells Prepared \\
+		\hline
+		0 & -- & -- & Detect Magic, Detect Poison, Light, Read Magic \\
+		\hline
+		1 & 5 & -- & Cure Light Wounds, Entangle x2, Obsuring Mist \\
+		\hline
+		2 & 5 & -- & Barkskin, Restoration--Lesser, Wilderness Soldiers, 
+					Web Shelter, Frigid Touch \\
+		\hline
+		3 & 4 & -- & Cure Moderate Wounds, Mad Monkeys, Call Lightning, Burst of Nettles \\
+		\hline
+		4 & 4 & -- & Cure Serious Wounds, Ball Lightning, Cape of Wasps, Flame Strike \\
+		\hline
+		5 & 2 & -- & Tree Stride, Cure Critical Wounds \\
+		\hline
+		\end{tabularx}
+	
+	\subsubsection*{Extracts}
+	\begin{tabularx}{\textwidth}{|X|X|X|X|}
+		\hline
+		Level & Spells per day & Spells Known & Spells Prepared \\
+		\hline
+		1 & 6 & Targeted Bomb Admixure, Enlarge Person, Bomber's Eye, Illusion of Calm, Reduce Person, Shield & 
+				Cure Light Wounds, Enlarge Person x2, Targeted Bomb Admixture, Shield x2\\
+		\hline
+		2 & 5 & Blur, Shadow Bomb Admixure, Vomit Swarm, Blistering Invective, Invisiblity, Touch Injection  & 
+				Blur, Cure Moderate Wounds, Blistering Invective x2, Shadow Bomb Admixture \\
+		\hline
+		3 & 4 & Displacement, Draconic Reservoir, Haste, Lightning Lash Admixture, Rage, Undead Anatomy I & 
+				Displacement, Haste, Lightning Lash Admixture, Cure Serious Wounds \\
+		\hline
+		4 & 2 & Universal Formula, Viper Bomb Admixture & Universal Formula, Viper Bomb Admixture \\
+		\hline
+	\end{tabularx}
+		
+}
+	
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% The first part is establishing the flags
+% if class skill set to 1 else 0
+% All knowledges are available
+% Additional crafts and performs must be added
+% manually
+% Set skill ranks here
+% Under ranks set any other Misc modifiers
+% race, class, etc.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{sagesilent}
+
+	acrobatics = 0
+	appraise = 1
+	bluff = 0
+	climb = 1
+	craft = 1
+	diplomacy = 0
+	disableDevice = 1
+	disguise = 0
+	escapeArtist = 0
+	fly = 1
+	handleAnimal = 1
+	heal = 1
+	intimidate = 0
+	knowledgeArcana = 1
+	knowledgeDungeon = 0
+	knowledgeEngine = 0
+	knowledgeGeo = 1
+	knowledgeHist = 0
+	knowledgeLocal = 0
+	knowledgeNature = 1
+	knowledgeNoble = 0
+	knowledgePlanes = 0
+	knowledgeReligion = 0
+	linguistics = 0
+	perception = 1
+	perform = 0
+	profession = 1
+	ride = 1
+	senseMotive = 0
+	sleightOfHand = 1
+	spellcraft = 1
+	stealth = 0
+	survival = 1
+	swim= 1
+	useMagicDevice = 1
+
+	acrobaticsRanks = 0
+	appraiseRanks = 0
+	bluffRanks = 0
+	climbRanks = 0
+	craftRanks = 0
+	diplomacyRanks = 0
+	disableDeviceRanks = 10
+	disguiseRanks = 0
+	escapeArtistRanks = 0
+	flyRanks = 0
+	handleAnimalRanks = 10
+	healRanks = 0
+	intimidateRanks = 10
+	knowledgeArcanaRanks = 0
+	knowledgeDungeonRanks = 0
+	knowledgeEngineRanks = 0
+	knowledgeGeoRanks = 0
+	knowledgeHistRanks = 0
+	knowledgeLocalRanks = 0
+	knowledgeNatureRanks = 0
+	knowledgeNobleRanks = 0
+	knowledgePlanesRanks = 0
+	knowledgeReligionRanks = 0
+	linguisticsRanks = 0
+	perceptionRanks = 10
+	performRanks = 0
+	professionRanks = 0
+	rideRanks = 0
+	senseMotiveRanks = 0
+	sleightOfHandRanks = 10
+	spellcraftRanks = 10
+	stealthRanks = 0
+	survivalRanks = 10
+	swimRanks = 0
+	useMagicDeviceRanks = 10
+	
+	acrobaticsMisc = 0
+	appraiseMisc = 0
+	bluffMisc = 0 
+	climbMisc = 0 
+	craftMisc = 0 
+	diplomacyMisc = 0 
+	disableDeviceMisc = 0
+	disguiseMisc = 0 
+	escapeArtistMisc = 0
+	flyMisc = 0
+	handleAnimalMisc = 0
+	healMisc = 0
+	intimidateMisc = 0
+	knowledgeArcanaMisc= 0
+	knowledgeDungeonMisc = 0
+	knowledgeEngineMisc = 0
+	knowledgeGeoMisc = 0
+	knowledgeHistMisc = 0
+	knowledgeLocalMisc = 0
+	knowledgeNatureMisc = 2
+	knowledgeNobleMisc = 0
+	knowledgePlanesMisc = 0 
+	knowledgeReligionMisc = 0
+	linguisticsMisc = 0
+	perceptionMisc = 0
+	performMisc = 0
+	professionMisc = 0
+	rideMisc = 0
+	senseMotiveMisc = 0 
+	sleightOfHandMisc = 0
+	spellcraftMisc = 0
+	stealthMisc = 0
+	survivalMisc = 2
+	swimMisc = 0
+	useMagicDeviceMisc = 0
+
+\end{sagesilent}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Doing some Math
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{sagesilent}
+
+	acTotal = 10 + armorBonus + shieldBonus + naturalArmor + miscArmor + dexMod
+	cmb = bab + strMod
+	cmd = 10 + strMod + dexMod
+
+\end{sagesilent}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Figuring out skills
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{sagesilent}
+if acrobatics == 1:
+	 if acrobaticsRanks > 0:
+	  acrobaticsTotal = acrobaticsRanks + dexMod + acrobaticsMisc + 3
+	 else:
+	  acrobaticsTotal = dexMod + acrobaticsMisc
+else:
+	 acrobaticsTotal = dexMod + acrobaticsMisc + floor(acrobaticsRanks/2)
+
+if appraise == 1:
+	 if appraiseRanks > 0:
+	  appraiseTotal = appraiseRanks + intMod + appraiseMisc + 3
+	 else:
+	  appraiseTotal = intMod + appraiseMisc
+else:
+	 appraiseTotal = intMod + appraiseMisc + floor(appraiseRanks/2)
+
+if bluff == 1:
+	 if bluffRanks > 0:
+	  bluffTotal = bluffRanks + chaMod + bluffMisc + 3
+	 else:
+	  bluffTotal = chaMod + bluffMisc
+else:
+	 bluffTotal = chaMod + bluffMisc + floor(bluffRanks/2)
+
+if climb == 1:
+	 if climbRanks > 0:
+	  climbTotal = climbRanks + strMod + climbMisc + 3
+	 else:
+	  climbTotal = strMod + climbMisc
+else:
+	 climbTotal = strMod + climbMisc + floor(climbRanks/2)
+
+if craft == 1:
+	 if craftRanks > 0:
+	  craftTotal = craftRanks + intMod + craftMisc + 3
+	 else:
+	  craftTotal = intMod + craftMisc
+else:
+	 craftTotal = intMod + craftMisc + floor(craftRanks/2)
+
+if diplomacy == 1:
+	 if diplomacyRanks > 0:
+	  diplomacyTotal = diplomacyRanks + chaMod + diplomacyMisc + 3
+	 else:
+	  diplomacyTotal = chaMod + diplomacyMisc
+else:
+	 diplomacyTotal = chaMod + diplomacyMisc + floor(diplomacyRanks/2)
+
+if disableDevice == 1:
+	 if disableDeviceRanks > 0:
+	  disableDeviceTotal = disableDeviceRanks + dexMod + disableDeviceMisc + 3
+	 else:
+	  disableDeviceTotal = dexMod + disableDeviceMisc
+else:
+	 disableDeviceTotal = dexMod + disableDeviceMisc + floor(disableDeviceRanks/2)
+
+if disguise == 1:
+	 if disguiseRanks > 0:
+	  disguiseTotal = disguiseRanks + chaMod + disguiseMisc + 3
+	 else:
+	  disguiseTotal = chaMod + disguiseMisc
+else:
+	 disguiseTotal = chaMod + disguiseMisc + floor(disguiseRanks/2)
+
+if escapeArtist == 1:
+	 if escapeArtistRanks > 0:
+	  escapeArtistTotal = escapeArtistRanks + dexMod + escapeArtistMisc + 3
+	 else:
+	  escapeArtistTotal = dexMod + escapeArtistMisc
+else:
+	 escapeArtistTotal = dexMod + escapeArtistMisc + floor(escapeArtistRanks/2)
+
+if fly == 1:
+	 if flyRanks > 0:
+	  flyTotal = flyRanks + dexMod + flyMisc + 3
+	 else:
+	  flyTotal = dexMod + flyMisc
+else:
+	 flyTotal = dexMod + flyMisc + floor(flyRanks/2)
+
+if handleAnimal == 1:
+	 if handleAnimalRanks > 0:
+	  handleAnimalTotal = handleAnimalRanks + chaMod + handleAnimalMisc + 3
+	 else:
+	  handleAnimalTotal = chaMod + handleAnimalMisc
+else:
+	 handleAnimalTotal = chaMod + handleAnimalMisc + floor(handleAnimalRanks/2)
+
+if heal == 1:
+	 if healRanks > 0:
+	  healTotal = healRanks + wisMod + healMisc + 3
+	 else:
+	  healTotal = wisMod + healMisc
+else:
+	 healTotal = wisMod + healMisc + floor(healRanks/2)
+
+if intimidate == 1:
+	 if intimidateRanks > 0:
+	  intimidateTotal = intimidateRanks + chaMod + intimidateMisc + 3
+	 else:
+	  intimidateTotal = chaMod + intimidateMisc
+else:
+	 intimidateTotal = chaMod + intimidateMisc + floor(intimidateRanks/2)
+
+if knowledgeArcana == 1:
+	 if knowledgeArcanaRanks > 0:
+	  knowledgeArcanaTotal = knowledgeArcanaRanks + intMod + knowledgeArcanaMisc + 3
+	 else:
+	  knowledgeArcanaTotal = intMod + knowledgeArcanaMisc
+else:
+	 knowledgeArcanaTotal = intMod + knowledgeArcanaMisc + floor(knowledgeArcanaRanks/2)
+
+if knowledgeDungeon == 1:
+	 if knowledgeDungeonRanks > 0:
+	  knowledgeDungeonTotal = knowledgeDungeonRanks + intMod + knowledgeDungeonMisc + 3
+	 else:
+	  knowledgeDungeonTotal = intMod + knowledgeDungeonMisc
+else:
+	 knowledgeDungeonTotal = intMod + knowledgeDungeonMisc + floor(knowledgeDungeonRanks/2)
+
+if knowledgeArcana == 1:
+	 if knowledgeDungeonRanks > 0:
+	  knowledgeDungeonTotal = knowledgeDungeonRanks + intMod + knowledgeDungeonMisc + 3
+	 else:
+	  knowledgeDungeonTotal = intMod + knowledgeDungeonMisc
+else:
+	 knowledgeDungeonTotal = intMod + knowledgeDungeonMisc + floor(knowledgeDungeonRanks/2)
+
+if knowledgeArcana == 1:
+	 if knowledgeEngineRanks > 0:
+	  knowledgeEngineTotal = knowledgeEngineRanks + intMod + knowledgeEngineMisc + 3
+	 else:
+	  knowledgeEngineTotal = intMod + knowledgeEngineMisc
+else:
+	 knowledgeEngineTotal = intMod + knowledgeEngineMisc + floor(knowledgeEngineRanks/2)
+
+if knowledgeArcana == 1:
+	 if knowledgeGeoRanks > 0:
+	  knowledgeGeoTotal = knowledgeGeoRanks + intMod + knowledgeGeoMisc + 3
+	 else:
+	  knowledgeGeoTotal = intMod + knowledgeGeoMisc
+else:
+	 knowledgeGeoTotal = intMod + knowledgeGeoMisc + floor(knowledgeGeoRanks/2)
+
+if knowledgeHist == 1:
+	 if knowledgeHistRanks > 0:
+	  knowledgeHistTotal = knowledgeHistRanks + intMod + knowledgeHistMisc + 3
+	 else:
+	  knowledgeHistTotal = intMod + knowledgeHistMisc
+else:
+	 knowledgeHistTotal = intMod + knowledgeHistMisc + floor(knowledgeHistRanks/2)
+
+if knowledgeLocal == 1:
+	 if knowledgeLocalRanks > 0:
+	  knowledgeLocalTotal = knowledgeLocalRanks + intMod + knowledgeLocalMisc + 3
+	 else:
+	  knowledgeLocalTotal = intMod + knowledgeLocalMisc
+else:
+	 knowledgeLocalTotal = intMod + knowledgeLocalMisc + floor(knowledgeLocalRanks/2)
+
+if knowledgeNature == 1:
+	 if knowledgeNatureRanks > 0:
+	  knowledgeArcanaTotal = knowledgeNatureRanks + intMod + knowledgeNatureMisc + 3
+	 else:
+	  knowledgeNatureTotal = intMod + knowledgeNatureMisc
+else:
+	 knowledgeNatureTotal = intMod + knowledgeNatureMisc + floor(knowledgeNatureRanks/2)
+
+if knowledgeNoble == 1:
+	 if knowledgeNobleRanks > 0:
+	  knowledgeNobleTotal = knowledgeNobleRanks + intMod + knowledgeNobleMisc + 3
+	 else:
+	  knowledgeNobleTotal = intMod + knowledgeNobleMisc
+else:
+	 knowledgeNobleTotal = intMod + knowledgeNobleMisc + floor(knowledgeNobleRanks/2)
+
+if knowledgePlanes == 1:
+	 if knowledgePlanesRanks > 0:
+	  knowledgePlanesTotal = knowledgePlanesRanks + intMod + knowledgePlanesMisc + 3
+	 else:
+	  knowledgePlanesTotal = intMod + knowledgePlanesMisc
+else:
+	 knowledgePlanesTotal = intMod + knowledgePlanesMisc + floor(knowledgePlanesRanks/2)
+
+if knowledgeReligion == 1:
+	 if knowledgeReligionRanks > 0:
+	  knowledgeReligionTotal = knowledgeReligionRanks + intMod + knowledgeReligionMisc + 3
+	 else:
+	  knowledgeReligionTotal = intMod + knowledgeReligionMisc
+else:
+	 knowledgeReligionTotal = intMod + knowledgeReligionMisc + floor(knowledgeReligionRanks/2)
+
+if linguistics == 1:
+	 if linguisticsRanks > 0:
+	  linguisticsTotal = linguisticsRanks + intMod + linguisticsMisc + 3
+	 else:
+	  linguisticsTotal = intMod + linguisticsMisc
+else:
+	 linguisticsTotal = intMod + linguisticsMisc + floor(linguisticsRanks/2)
+
+if perception == 1:
+	 if perceptionRanks > 0:
+	  perceptionTotal = perceptionRanks + wisMod + perceptionMisc + 3
+	 else:
+	  perceptionTotal = wisMod + perceptionMisc
+else:
+	 perceptionTotal = wisMod + perceptionMisc + floor(perceptionRanks/2)
+
+if perform == 1:
+	 if performRanks > 0:
+	  performTotal = performRanks + chaMod + performMisc + 3
+	 else:
+	  performTotal = chaMod + performMisc
+else:
+	 performTotal = chaMod + performMisc + floor(performRanks/2)
+
+if profession == 1:
+	 if professionRanks > 0:
+	  professionTotal = professionRanks + wisMod + professionMisc + 3
+	 else:
+	  professionTotal = wisMod + professionMisc
+else:
+	 professionTotal = wisMod + professionMisc + floor(professionRanks/2)
+
+if ride == 1:
+	 if rideRanks > 0:
+	  rideTotal = rideRanks + dexMod + rideMisc + 3
+	 else:
+	  rideTotal = dexMod + rideMisc
+else:
+	 rideTotal = dexMod + rideMisc + floor(rideRanks/2)
+
+if senseMotive == 1:
+	 if senseMotiveRanks > 0:
+	  senseMotiveTotal = senseMotiveRanks + wisMod + senseMotiveMisc + 3
+	 else:
+	  senseMotiveTotal = wisMod + senseMotiveMisc
+else:
+	 senseMotiveTotal = wisMod + senseMotiveMisc + floor(senseMotiveRanks/2)
+
+if sleightOfHand == 1:
+	 if sleightOfHandRanks > 0:
+	  sleightOfHandTotal = sleightOfHandRanks + dexMod + sleightOfHandMisc + 3
+	 else:
+	  sleightOfHandTotal = dexMod + sleightOfHandMisc
+else:
+	 sleightOfHandTotal = dexMod + sleightOfHandMisc + floor(sleightOfHandRanks/2)
+
+if spellcraft == 1:
+	 if spellcraftRanks > 0:
+	  spellcraftTotal = spellcraftRanks + intMod + spellcraftMisc + 3
+	 else:
+	  spellcraftTotal = intMod + spellcraftMisc
+else:
+	 spellcraftTotal = intMod + spellcraftMisc + floor(spellcraftRanks/2)
+
+if stealth == 1:
+	 if stealthRanks > 0:
+	  stealthTotal = stealthRanks + dexMod + stealthMisc + 3
+	 else:
+	  stealthTotal = dexMod + stealthMisc
+else:
+	 stealthTotal = dexMod + stealthMisc + floor(stealthRanks/2)
+
+if survival == 1:
+	 if survivalRanks > 0:
+	  survivalTotal = survivalRanks + wisMod + survivalMisc + 3
+	 else:
+	  survivalTotal = wisMod + survivalMisc
+else:
+	 survivalTotal = wisMod + survivalMisc + floor(survivalRanks/2)
+
+if swim == 1:
+	 if swimRanks > 0:
+	  swimTotal = swimRanks + strMod + swimMisc + 3
+	 else:
+	  swimTotal = strMod + swimMisc
+else:
+	 swimTotal = strMod + swimMisc + floor(swimRanks/2)
+
+if useMagicDevice == 1:
+	 if useMagicDeviceRanks > 0:
+	  useMagicDeviceTotal = useMagicDeviceRanks + chaMod + useMagicDeviceMisc + 3
+	 else:
+	  useMagicDeviceTotal = chaMod + useMagicDeviceMisc
+else:
+	 useMagicDeviceTotal = chaMod + useMagicDeviceMisc + floor(useMagicDeviceRanks/2)
+
+\end{sagesilent}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% Here is the actual sheet
+% 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\subsection*{Bios}
+	\begin{tabular}{r l r l}
+		\textsc{Name:} & \charName & \textsc{Race:} & \charRace \\
+		\textsc{Age:} & \charAge & \textsc{Deity:} & \charGod \\
+		\textsc{Alignment:} & \charAlign & \textsc{Size:} & \charSize \\
+		\textsc{Level:} & \(\sage{characterLevel}\) & \textsc{Class:} & \class
+	\end{tabular}
+
+\subsection*{Stats}
+
+	\begin{tabular}{r c c | r l}
+		\textsc{Ability} & \textsc{Score} & \textsc{Modifier} && \\
+		\textsc{Str:} & \(\sage{str}\) & \(\sage{strMod}\) & HP: & \(\sage{hp}\) \\
+		\textsc{Dex:} & \(\sage{dex}\) & \(\sage{dexMod}\) & Init: & \(\sage{initBonus + dexMod}\) \\
+		\textsc{Con:} & \(\sage{con}\) & \(\sage{conMod}\) & AC: & \(\sage{acTotal}\) \\
+		\textsc{Int:} & \(\sage{int}\) & \(\sage{intMod}\) & BAB: & \(\sage{bab}\) \\
+		\textsc{Wis:} & \(\sage{wis}\) & \(\sage{wisMod}\) & CMB: & \(\sage{cmb}\) \\
+		\textsc{Cha:} & \(\sage{cha}\) & \(\sage{chaMod}\) & CMD: & \(\sage{cmd}\) \\
+		&&& \textsc{Will:} & \(\sage{will + wisMod}\) \\
+		&&& \textsc{Refl:} & \(\sage{refl + dexMod}\) \\
+		&&& \textsc{Fort:} & \(\sage{fort + conMod}\) \\
+	\end{tabular}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Define Weapons and Armor
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\subsection*{Gear}
+	\subsubsection*{Weapons}
+		\begin{tabularx}{\textwidth}{| X | X | X | X | X | X |}
+			\hline
+			\textsc{Attack Bonus} & \textsc{Weapon} & \textsc{Damage} & \textsc{Critical Mod} & \textsc{Damage Type} & \textsc{Range} \\ 
+			\hline
+			\(\sage{bab+strMod+wp1AttBonus}\) & \wpOneName & \wpOneDam+\(\sage{wp1DamBonus}\) & x\(\sage{wp1CritMod}\)  & \wpOneType & \(\sage{wp1Range}\) \\
+			\hline
+			\(\sage{bab+dexMod+wp2AttBonus}\) & \wpTwoName & \wpTwoDam+\(\sage{wp2DamBonus}\) & x\(\sage{wp2CritMod}\) & \wpTwoType & \(\sage{wp2Range}\) \\
+			\hline
+		\end{tabularx}
+	\subsubsection*{Armor}
+		\begin{tabularx}{\textwidth}{| X | X | X |}
+			\hline
+			\armOneName & \armOneBonus & Usable by Druid \\
+			\hline
+			\armTwoName & \armTwoBonus &\\
+			\hline
+			\armThreeName & \armThreeBonus &\\
+			\hline
+		\end{tabularx}
+	
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Define class abilities
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\subsection*{Abilities}
+	\subsubsection*{Feats}
+		\feats
+	\subsubsection*{Class Abilities}
+		\classab
+	\subsubsection*{Racial Traits}
+		\racetr
+	\subsubsection*{Spells}
+		\spells
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% Here are the skills, all of the math should be
+% done already 
+% edit to add custom skills
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\subsection*{Skills} 
+
+	\begin{tabular}{l r c c c}
+		\textsc{Skill} & \textsc{Total} & \textsc{Ranks} & \textsc{Ability Mod} & \textsc{Misc} \\
+		\hline
+		\textsc{Acrobatics:} & \(\sage{acrobaticsTotal}\) & \(\sage{acrobaticsRanks}\) & \(\sage{dexMod}\) & \(\sage{acrobaticsMisc}\) \\
+		\textsc{Appraise:} & \(\sage{appraiseTotal}\) & \(\sage{appraiseRanks}\) & \(\sage{intMod}\) & \(\sage{appraiseMisc}\) \\
+		\textsc{Bluff:} & \(\sage{bluffTotal}\) & \(\sage{bluffRanks}\) & \(\sage{chaMod}\) & \(\sage{bluffMisc}\) \\
+		\textsc{Climb:} & \(\sage{climbTotal}\) & \(\sage{climbRanks}\) & \(\sage{strMod}\) & \(\sage{climbMisc}\) \\
+		\textsc{Craft:} & \(\sage{craftTotal}\) & \(\sage{craftRanks}\) & \(\sage{intMod}\) & \(\sage{craftMisc}\) \\
+		\textsc{Diplomacy:} & \(\sage{diplomacyTotal}\) & \(\sage{diplomacyRanks}\) & \(\sage{chaMod}\) & \(\sage{diplomacyMisc}\) \\
+		\textsc{Disable Device:} & \(\sage{disableDeviceTotal}\) & \(\sage{disableDeviceRanks}\) & \(\sage{dexMod}\) & \(\sage{disableDeviceMisc}\) \\
+		\textsc{Disguise:} & \(\sage{disguiseTotal}\) & \(\sage{disguiseRanks}\) & \(\sage{chaMod}\) & \(\sage{disguiseMisc}\) \\
+		\textsc{Escape Artist} & \(\sage{escapeArtistTotal}\) & \(\sage{escapeArtistRanks}\) & \(\sage{dexMod}\) & \(\sage{escapeArtistMisc}\) \\
+		\textsc{Fly:} & \(\sage{flyTotal}\) & \(\sage{flyRanks}\) & \(\sage{dexMod}\) & \(\sage{flyMisc}\) \\
+		\textsc{Handle Animal:} & \(\sage{handleAnimalTotal}\) & \(\sage{handleAnimalRanks}\) & \(\sage{chaMod}\) & \(\sage{handleAnimalMisc}\) \\
+		\textsc{Heal:} & \(\sage{healTotal}\) & \(\sage{healRanks}\) & \(\sage{wisMod}\) & \(\sage{healMisc}\) \\
+		\textsc{Intimidate:} & \(\sage{intimidateTotal}\) & \(\sage{intimidateRanks}\) & \(\sage{chaMod}\) & \(\sage{intimidateMisc}\) \\
+		\textsc{Knowledge (Arcana):} & \(\sage{knowledgeArcanaTotal}\) & \(\sage{knowledgeArcanaRanks}\) & \(\sage{intMod}\) & \(\sage{knowledgeArcanaMisc}\)\\
+		\textsc{Knowledge (Dungeoneering):} & \(\sage{knowledgeDungeonTotal}\) & \(\sage{knowledgeDungeonRanks}\) & \(\sage{intMod}\) & \(\sage{knowledgeDungeonMisc}\)\\
+		\textsc{Knowledge (Engineering):} & \(\sage{knowledgeEngineTotal}\) & \(\sage{knowledgeEngineRanks}\) & \(\sage{intMod}\) & \(\sage{knowledgeEngineMisc}\)\\
+		\textsc{Knowledge (Geography):} & \(\sage{knowledgeGeoTotal}\) & \(\sage{knowledgeGeoRanks}\) & \(\sage{intMod}\) & \(\sage{knowledgeGeoMisc}\)\\
+		\textsc{Knowledge (History):} & \(\sage{knowledgeHistTotal}\) & \(\sage{knowledgeHistRanks}\) & \(\sage{intMod}\) & \(\sage{knowledgeHistMisc}\)\\
+		\textsc{Knowledge (Local):} & \(\sage{knowledgeLocalTotal}\) & \(\sage{knowledgeLocalRanks}\) & \(\sage{intMod}\) & \(\sage{knowledgeLocalMisc}\)\\
+		\textsc{Knowledge (Nature):} & \(\sage{knowledgeNatureTotal}\) & \(\sage{knowledgeNatureRanks}\) & \(\sage{intMod}\) & \(\sage{knowledgeNatureMisc}\)\\
+		\textsc{Knowledge (Nobility):} & \(\sage{knowledgeNobleTotal}\) & \(\sage{knowledgeNobleRanks}\) & \(\sage{intMod}\) & \(\sage{knowledgeNobleMisc}\)\\
+		\textsc{Knowledge (Planes):} & \(\sage{knowledgePlanesTotal}\) & \(\sage{knowledgePlanesRanks}\) & \(\sage{intMod}\) & \(\sage{knowledgePlanesMisc}\)\\
+		\textsc{Knowledge (Religion):} & \(\sage{knowledgeReligionTotal}\) & \(\sage{knowledgeReligionRanks}\) & \(\sage{intMod}\) & \(\sage{knowledgeReligionMisc}\)\\
+		\textsc{Linguistics:} & \(\sage{linguisticsTotal}\) & \(\sage{linguisticsRanks}\) & \(\sage{intMod}\) & \(\sage{linguisticsMisc}\) \\
+		\textsc{Perception:} & \(\sage{perceptionTotal}\) & \(\sage{perceptionRanks}\) & \(\sage{wisMod}\) & \(\sage{perceptionMisc}\) \\
+		\textsc{Perform:} & \(\sage{performTotal}\) & \(\sage{performRanks}\) & \(\sage{chaMod}\) & \(\sage{performMisc}\) \\
+		\textsc{Profession():} & \(\sage{professionTotal}\) & \(\sage{professionRanks}\) & \(\sage{wisMod}\) & \(\sage{professionMisc}\) \\
+		\textsc{Ride:} & \(\sage{rideTotal}\) & \(\sage{rideRanks}\) & \(\sage{dexMod}\) & \(\sage{rideMisc}\) \\
+		\textsc{Sense Motive:} & \(\sage{senseMotiveTotal}\) & \(\sage{senseMotiveRanks}\) & \(\sage{wisMod}\) & \(\sage{senseMotiveMisc}\) \\
+		\textsc{Sleight of Hand:} & \(\sage{sleightOfHandTotal}\) & \(\sage{sleightOfHandRanks}\) & \(\sage{dexMod}\) & \(\sage{sleightOfHandMisc}\) \\
+		\textsc{Spellcraft:} & \(\sage{spellcraftTotal}\) & \(\sage{spellcraftRanks}\) & \(\sage{intMod}\) & \(\sage{spellcraft}\) \\
+		\textsc{Stealth:} & \(\sage{stealthTotal}\) & \(\sage{stealthRanks}\) & \(\sage{dexMod}\) & \(\sage{stealthMisc}\) \\
+		\textsc{Survival:} & \(\sage{survivalTotal}\) & \(\sage{survivalRanks}\) & \(\sage{wisMod}\) & \(\sage{survivalMisc}\) \\
+		\textsc{Swim:} & \(\sage{swimTotal}\) & \(\sage{swimRanks}\) & \(\sage{strMod}\) & \(\sage{swimMisc}\) \\
+		\textsc{Use Magic Device:} & \(\sage{useMagicDeviceTotal}\) & \(\sage{useMagicDeviceRanks}\) & \(\sage{chaMod}\) & \(\sage{useMagicDeviceMisc}\) \\
+	\end{tabular}
+
+\end{document}
