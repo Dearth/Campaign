@@ -9,3 +9,9 @@ Hopefully this move will allow for more usablity.
 
 If you do not fear the sagetex, feel free to grab the src file from the already completed druid
 character sheet.
+
+7/5/12
+-Started to separate into different funtional files rather than one
+long .tex file
+
+
