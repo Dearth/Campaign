@@ -14,4 +14,7 @@ character sheet.
 -Started to separate into different funtional files rather than one
 long .tex file
 
-
+7/27/12
+-Decided to change tactics, rather than build what was turning into a huge and
+complex .tex file.  The goal of the project will be to create a easy to use 
+.tex file generator with all the avaible calculations already completed.
