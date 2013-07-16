@@ -2,6 +2,9 @@ Pathfinder campaign:
 
 Change log:
 
+6/16/13
+-Added world map base image
+
 1/12/12
 -First draft of  Introduction
 -Started Backstory
@@ -27,7 +30,12 @@ sort of version control.
 
 TODO:
 
-Add Map picture
+Add Inkscape Layers for World Map
+	Label Mountains
+	Label Roads
+	Label Rivers
+	Label Cities
+	Label POIs
 Add City Descriptions
 Add Faction Description
 Add Notable NPC's
