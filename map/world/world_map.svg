@@ -154,10 +154,10 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.80630809"
-     inkscape:cx="782.60042"
+     inkscape:cx="615.08814"
      inkscape:cy="378.11741"
      inkscape:document-units="px"
-     inkscape:current-layer="layer8"
+     inkscape:current-layer="layer4"
      showgrid="false"
      showguides="true"
      inkscape:guide-bbox="true"
@@ -174,7 +174,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -350,6 +350,11 @@
        d="m 82.54121,974.61988 c 0.0059,-0.3529 4.246588,-1.36724 7.198361,-4.31902 5.088149,-5.08815 11.414519,-8.53517 16.316289,-13.43694 1.62446,-1.62446 5.77542,-2.41619 7.67825,-4.31901 0.64576,-0.64577 3.26532,-0.38598 3.83912,-0.95979 2.79795,-2.79794 10.67629,-3.95781 14.39673,-7.67825 1.26446,-1.26446 13.79427,-3.71656 15.3565,-5.2788 3.13976,-3.13975 6.34358,-6.34357 9.59782,-9.59781 2.01701,-2.01701 6.03412,-3.63467 7.67825,-5.2788 1.08361,-1.08361 21.35186,-0.71656 26.87388,-6.23858 2.11457,-2.11457 8.20833,4.3692 8.63803,4.79891 2.12656,2.12655 12.42707,-4.10412 14.87662,-2.87935 1.35068,0.67535 3.99906,1.59961 4.79891,2.39946 0.78019,0.78019 11.45958,-2.18841 13.91683,-0.95978 2.09302,1.04651 12.21216,4.45151 14.39672,3.35923 5.72066,-2.86033 17.28864,-7.21094 20.6353,-10.5576 1.24721,-1.2472 10.36351,-0.76569 12.47716,-2.87934 2.60143,-2.60142 6.11119,-4.19163 8.63804,-6.71847 4.78443,-4.78444 7.7826,-9.22228 11.51737,-12.95705 1.81811,-1.81811 7.39899,-3.07997 8.15815,-3.83913 4.27287,-4.27287 9.8792,-5.0803 14.39672,-9.59781 4.23747,-4.23747 7.70877,2.86408 12.47716,0.47989 4.6989,-2.34945 3.61713,-5.5367 6.23858,-8.15814 1.20189,-1.2019 9.26008,-1.27081 11.51738,-2.39946 1.91956,-0.95978 5.27879,0.95978 7.19836,0 2.67628,-1.33814 3.9365,-2.44814 6.71847,-3.83912 3.2783,-1.63915 1.28062,4.0009 1.91956,5.27879 0.28671,0.57342 0.61402,2.53359 0.95978,2.87935 0.40783,0.40783 1.53654,1.43967 0.95978,1.43967 -0.0531,0 -0.0459,-1.39376 0.47989,-1.91956 0.33446,-0.33445 1.64132,0.82065 1.91957,0.95978 1.11651,0.55825 2.97579,0.47989 4.31901,0.47989 1.13112,0 2.55942,-1.27971 3.35924,-0.47989 2.26951,2.26951 5.166,2.76654 7.19836,4.79891 0.71749,0.71748 3.19375,0.3144 3.83913,0.95978 1.30351,1.30351 8.30128,-0.47989 10.0777,-0.47989 1.633,0 5.55179,-3.15234 6.71847,-4.31902 0.84671,-0.8467 5.9891,-0.7103 7.19837,-1.91956 1.10399,-1.104 12.30245,1.04713 14.39672,0 3.00642,-1.50321 11.6941,-4.01585 12.95705,-5.2788 0.49594,-0.49594 8.28767,4.0143 10.55759,2.87934 3.61643,-1.80821 2.69683,-7.01584 5.2788,-9.59781 1.0211,-1.0211 3.69519,-0.33595 4.79891,-1.43967 0.2661,-0.26611 3.19421,-2.08459 3.35924,-1.91957 0.32799,0.328 5.29447,18.22018 6.23858,17.27607 0.57765,-0.57765 0.0909,-2.10131 0.47989,-2.87934 3.28841,-6.57684 -0.94281,-18.73272 1.91956,-21.59509 0.58823,-0.58822 2.6514,-0.25195 3.35923,-0.95978 4.07788,-4.07788 13.6328,-3.07519 17.75596,-7.19836 0.83225,-0.83225 3.58424,-0.225 4.31902,-0.95978 0.23454,-0.23454 5.0427,-2.15566 5.75869,-1.43967 0.63985,0.63985 0.79982,1.7596 1.43967,2.39945 0.75206,0.75206 10.68713,0.41513 12.47716,-0.47989 3.27276,-1.63638 0.6668,-7.05187 3.83913,-8.63803 1.74701,-0.87351 6.80179,-0.0833 8.15814,-1.43968 0.0372,-0.0372 3.10792,-1.69098 3.35923,-1.43967 0.39881,0.3988 -1.11915,2.71997 -0.47989,3.35924 0.37313,0.37313 4.31372,2.40475 5.2788,1.43967 2.55429,-2.55429 11.58629,-3.90804 15.8364,-8.15814 1.11559,-1.1156 9.30347,-2.01234 11.03748,-2.87935 1.7462,-1.72037 2.88988,-1.93009 3.83913,-2.87934 1.13501,-1.13501 6.47638,-0.1189 8.15814,-0.95978 3.39568,-1.69784 7.48737,-1.82413 10.5576,-3.35924 0.83456,-0.41728 1.99331,-0.0369 2.87934,-0.47989 1.27971,-0.63985 3.5192,0.63985 4.79891,0 0.96731,-0.48365 2.22099,-0.95978 3.35924,-0.95978 2.97307,0 5.50444,-4.34763 3.83912,-7.67825 -0.51608,-1.03217 0.22165,-1.69792 -0.47989,-2.39946 -0.23994,-0.23994 0.23995,-1.19972 0,-1.43967 -0.68665,-0.68666 -3.59229,-3.12618 -2.39945,-4.31902 2.68877,-2.68877 7.72367,-3.38194 12.47716,-5.75869 1.06822,-0.53411 5.02256,0.25624 5.75869,-0.47989 1.41238,-1.41238 2.38474,-5.2788 4.7989,-5.2788 1.72801,0 3.71431,-2.94175 5.75869,-1.91956 2.74298,1.37149 1.13617,6.89486 2.87935,8.63804 0.49392,0.49392 12.83193,-4.14164 15.3565,-2.87935 1.14375,0.57187 3.15894,0.27959 3.83913,0.95978 0.22622,0.22623 -0.22622,0.73356 0,0.95978 0.22622,0.22623 0.73356,-0.22622 0.95978,0 1.26958,1.26959 1.31484,7.07353 2.87934,8.63804 0.31993,0.31992 1.11975,0.15996 1.43968,0.47989 1.31451,1.31451 7.78418,-2.50539 8.15814,-2.87935 0.70454,-0.70453 1.17727,-1.30847 2.39945,-1.91956 2.52996,-1.26498 18.08599,0.62975 19.19563,-0.47989 1.24725,-1.24725 4.88014,-0.0406 6.71847,-0.95978 2.61847,-1.30923 3.23309,-2.81627 5.2788,-3.83913 2.61199,-1.30599 6.12987,-0.42553 9.11793,-1.91956 4.28182,-2.14091 11.78646,5.86409 18.71574,2.39945 1.13163,-0.56582 2.10231,0.29714 2.87934,-0.47989 0.55987,-0.55987 2.31947,0.08 2.87934,-0.47989 0.5351,-0.53509 2.20039,-0.14041 2.87935,-0.47989 4.26581,-2.13291 9.66932,-2.47169 12.87418,0.73317 0.94634,0.94634 3.30524,0.59057 4.072,1.35733 0.62861,0.62861 3.0125,-0.33933 3.39334,-0.33933 1.19734,0 3.63778,-2.13091 4.75068,-1.018 3.66578,3.66578 0.49256,7.03296 6.78668,10.18002 0.49326,0.24663 6.72801,-0.33934 8.14402,-0.33934 6.59517,0 12.45043,1.57947 18.32403,-1.35733 1.78376,-0.89188 4.12817,1.32925 5.42935,0.67867 1.42007,-0.71004 3.48802,-0.43402 4.41134,-1.35734 0.3182,-0.3182 1.70581,-2.70553 2.71467,-1.69667 1.39376,1.39376 -0.83204,3.5793 0,4.41134 0.91116,0.91116 2.37534,2.75946 2.37534,3.39334 0.77169,-0.0421 3.40811,-0.6639 4.07201,0 0.91596,0.91596 2.62389,1.26656 3.39334,2.03601 6.14579,6.14579 19.0681,4.75067 29.86139,4.75067 1.28383,0 9.59608,-0.0947 9.84069,-0.33933 0.48623,-0.48623 1.37276,-0.34705 2.036,-0.67867 1.05201,-0.52601 2.94689,-1.25022 3.73267,-2.036 1.10439,-1.10439 7.42752,-0.64084 9.50136,-2.71468 0.71729,-0.71729 1.35486,-2.03353 2.036,-2.71467 1.13231,-1.13231 2.60036,-0.90369 3.73267,-2.036 1.6334,-1.6334 3.58798,-3.58798 5.09001,-5.09001 0.78583,-0.78583 2.06303,-1.04503 2.71468,-1.69667 1.54419,-1.5442 3.52464,-3.86397 5.76867,-6.10801 0.85887,-0.85887 1.39179,-2.74913 2.03601,-3.39334 1.82144,-1.82144 2.93765,5.20636 5.42934,2.71467 1.24043,-1.24043 0.22934,-4.30134 1.35734,-5.42935 0.79443,-0.79442 1.88868,-1.88868 2.71467,-2.71467 0.42263,-0.42263 2.34153,-0.67867 3.05401,-0.67867 6.96115,0 0.9132,7.24329 6.10801,9.84069 3.77164,1.88582 8.48335,1.52792 8.48335,7.12601 0,0.5255 0.45844,1.9169 0.33933,2.03601 -0.67353,0.67353 -4.62419,2.16248 -2.71467,4.07201 1.40875,1.40874 5.23945,0.14944 6.44735,1.35733 1.09615,1.09615 2.55838,2.21905 3.73267,3.39334 1.21246,1.21246 0.31849,4.70898 1.018,6.10801 2.09351,4.18701 5.97141,7.80469 11.87669,7.80469 1.20612,0 5.60477,2.19991 6.44735,1.35733 1.66032,-1.66032 2.97586,-2.97586 4.75068,-4.75067 1.12296,-1.12297 2.61401,-14.83004 5.09001,-17.30604 0.80804,-0.80804 -2.45125,-4.93819 -1.69667,-6.44734 0.587,-1.17402 1.29341,-1.97208 2.036,-2.71468 0.39589,-0.39589 1.64011,0.0566 2.036,-0.33933 0.43288,-0.43288 1.14583,-0.33933 2.03601,-0.33933 4.45893,0 8.27054,-1.69667 11.53735,-1.69667 0.64881,0 3.65912,-0.4129 4.07201,0 2.91162,2.91161 -0.46776,6.99758 3.05401,10.51935 0.41744,0.41744 1.83423,0.0688 2.37534,0.33933 0.49539,0.2477 1.71855,0.66773 2.37533,0.33934 2.38085,-1.19043 3.10448,3.6822 1.69667,5.09001 -0.9456,0.9456 -1.77316,2.79116 -2.71467,3.73267 -0.62988,0.62989 2.21266,1.77801 2.37534,1.69667 3.95995,-1.97997 20.12774,-12.44828 24.77134,-7.80468 0.1323,0.13222 0,1.15026 0,1.35734 0,2.91117 -1.0834,3.42606 -3.054,4.41134 -0.7731,0.38657 -1.4352,0.33933 -2.3753,0.33933 -0.147,0 -0.6787,0.41851 -0.6787,0.33934 0,-0.0851 2.3754,1.39833 2.3754,3.39334 0,1.63505 -3.4858,3.97956 -1.6967,5.76867 0.2106,0.21065 7.5421,-6.8634 7.8047,-7.12601 0.4266,-0.42659 2.3165,0.0588 2.7147,-0.33933 2.7457,-2.74573 12.4045,1.77208 14.5913,0.67866 2.2671,-1.13355 2.2986,-2.6379 4.072,-4.41134 0.1697,-0.16966 -0.1696,-0.84833 0,-1.018 0.8186,-0.81862 0.9141,-4.30744 1.3574,-4.75068 0.9608,-0.96081 1.0368,-2.39417 2.036,-3.39334 0.753,-0.75302 2.6124,-1.93376 3.3933,-2.71467 1.2617,-1.26167 9.0018,1.85685 9.162,1.69667 1.0344,-1.03433 6.7306,-5.11805 9.5014,-3.73267 2.7567,1.37839 0.6587,2.69472 2.036,4.07201 0.1599,0.15996 -0.2262,0.67866 0,0.67866 0.4945,0 1.9583,0.60098 3.3933,2.03601 0.1808,0.18082 6.0771,-1.34188 6.7867,-1.69667 0.2825,-0.14126 1.1421,0.21524 1.3573,0 1.3208,-1.32074 4.2144,-1.839 5.4294,-3.05401 0.7473,-0.74728 14.516,-1.28202 16.6273,-3.39334 1.5506,-1.5505 5.3337,1.26169 5.7687,1.69667 0.7918,0.79178 3.9589,-0.79178 4.7507,0 1.8336,1.8336 5.3364,3.27013 8.4833,1.69667 0.2049,-0.10244 0.8612,0.15686 1.0181,0 0.6066,-0.60662 2.0718,-1.39322 2.7146,-2.036 0.7841,-0.78412 -5.2322,-6.16299 -3.054,-10.51936 0.2142,-0.42841 -0.3257,-1.71024 0,-2.036 1.5361,-1.53608 11.1739,-3.55095 13.5734,-4.75068 1.7049,-0.85248 0.1109,-4.18289 1.6966,-5.76867 1.495,-1.49496 3.7165,2.69846 4.0721,3.054 0.5162,0.51627 4.2787,0 5.09,0 3.3325,0 12.5553,-2.03599 12.8947,-1.69667 0.5174,0.51745 6.0611,4.11884 7.8046,2.37534 0.457,-0.45699 4.5735,-2.55251 5.7687,-1.35734 1.2141,1.21411 2.2819,2.62126 3.3934,3.73268 1.7063,1.70636 4.8857,-3.59764 6.108,-2.37534 0.4416,0.44159 1.1596,0.91917 2.036,1.35734 0.8462,0.42311 1.4009,0.0436 2.036,0.67866 0.8091,0.80917 0.3777,3.09235 1.3573,4.07201 0.6461,0.64612 1.1776,1.6068 2.036,2.03601 0.062,0.0311 1.018,-0.0249 1.018,0 0,2.5913 -5.5787,6.25741 -7.4653,8.14401 -1.3037,1.30371 -1.23,3.266 -2.3754,4.41134 -0.2423,0.24231 -4.4824,3.66155 -3.3933,4.75068 1.9024,1.90243 5.4241,-3.5656 8.4833,-2.036 2.0876,1.04376 -0.5621,5.2065 0.6787,6.44734 1.5354,1.53535 1.8623,4.577 3.3934,6.10801 0.2625,0.26254 0.5317,-0.53176 0.6786,-0.67866 1.6746,-1.67453 1.0702,-5.14215 2.036,-6.10802 0.3258,-0.32575 -0.2142,-1.60758 0,-2.036 2.0238,-4.0475 -3.9805,-7.89615 -1.3573,-10.51935 0.6623,-0.66228 12.074,-3.63401 13.234,-3.05401 0.3797,0.18986 1.2741,1.44055 1.6967,1.018 0.7918,-0.79178 1.5835,-1.58356 2.3753,-2.37534 1.1095,-1.10944 -2.036,-5.18799 -2.036,-5.42934 0,-3.37601 4.7752,-9.14975 0,-11.53736 1.196,-1.78593 5.0207,1.42666 6.4474,0 0.3262,-0.32622 0.9218,-0.58247 1.3573,-1.018 0.4749,-0.47493 -1.2836,-1.77044 -0.6787,-2.37534 0.8244,-0.82433 3.0316,-0.3169 3.7327,-1.018 0.6124,-0.61242 0.8593,-4.93125 1.3573,-5.42934 0.5123,-0.51228 0.8219,-1.83988 1.3574,-2.37534 0.9956,-0.99558 2.5999,-2.26063 3.3933,-3.05401 0.9426,-0.94255 4.1078,1.69667 6.108,1.69667 1.4635,0 6.0156,-2.46783 7.126,-1.35733 0.7109,0.71085 1.698,1.35864 2.3754,2.036 1.1573,1.15734 0.9387,3.31408 2.036,4.41134 0.3101,0.31007 4.4705,2.99479 5.4293,2.03601 1.0624,-1.06234 9.2985,-6.38093 9.5014,-6.78668 0.3959,-0.79188 -0.8425,-3.22951 0,-4.07201 1.2493,-1.24935 1.2527,-4.98536 3.054,-6.78668 0.099,-0.0993 0.6126,-1.69667 0.6787,-1.69667 0.1679,0 2.6695,2.08113 3.3933,1.35733 2.5651,-2.56507 10.7814,-2.58365 14.5914,-0.67866 0.5731,0.28657 3.8547,1.91393 4.7506,1.018 1.1205,-1.12044 -2.9799,-2.78874 -1.6966,-4.07201 1.6318,-1.63179 5.216,0.892 6.4473,-0.33933 0.9279,-0.92792 1.4408,-2.88149 2.036,-4.07201 1.0639,-2.12771 3.6766,-0.62257 5.4294,-2.37534 0.3958,-0.39589 0.2827,-1.30078 0.6786,-1.69667 1.4366,-1.43654 7.1844,-1.07639 8.8227,-2.71467 1.8523,-1.85229 2.6642,-5.03949 5.4294,-7.80468 1.8678,-1.86788 5.8253,-1.41404 7.8046,-3.39334 3.531,-3.531 1.9596,-12.47888 3.7327,-14.25203 1.5908,-1.59079 2.3754,1.48846 2.3754,2.71467 0,2.04321 1.7678,2.17834 2.7146,4.07201 0.4065,0.81294 -2.2347,2.17666 -1.3573,3.054 0.9633,0.96335 2.803,1.94768 4.072,0.67867 0.7476,-0.74756 -0.265,-2.78904 0.3393,-3.39334 0.7388,-0.73878 2.432,-1.41396 3.3934,-2.37534 1.0317,-1.0317 1.2695,-3.30558 2.3753,-4.41134 1.7198,-1.71976 4.5568,-1.59973 6.7867,-2.71467 0.5004,-0.25021 1.9949,0.38042 2.3753,0 3.7295,-3.72946 7.0292,-2.66628 11.198,-4.75068 1.9908,-0.99538 5.4746,0.99538 7.4654,0 1.2998,-0.64991 0.9148,-2.95079 1.6967,-3.73267 0.6023,-0.60229 1.8266,-0.91332 2.7146,-1.35734 2.05,-1.02497 4.6078,0.87505 5.4294,1.69667 1.1607,1.16071 -1.217,5.56967 -0.3394,6.44735 0.966,0.9659 2.6487,1.96996 3.3934,2.71467 0.6622,0.66225 0.3981,2.09481 2.036,3.73268 0.2399,0.23994 0.3393,1.018 0,1.018 -2.2923,0 -12.623,-0.5428 -5.4294,3.054 2.7208,1.3604 8.8613,0.0193 11.5374,1.35734 1.2761,0.63804 1.5849,4.86242 3.054,3.39334 0.1697,-0.16967 0.8483,0.16967 1.018,0 1.2305,-1.2305 2.4677,-4.16435 3.7327,-5.42934 0.5524,-0.55246 2.1706,-0.23697 3.054,-0.67867 0.394,-0.19701 0.7292,-1.40787 1.3573,-2.03601 0.6834,-0.68336 2.0313,-0.33463 2.7147,-1.018 0.9864,-0.98644 -0.2503,-2.58954 1.3573,-3.39334 5.3201,-2.66004 12.1357,3.13434 19.0027,-3.73267 1.6288,-1.62881 -3.7832,-3.05401 -5.09,-3.05401 -2.5791,0 -5.6511,-1.35733 -9.5013,-1.35733 -1.8206,0 -5.0516,1.88554 -6.7867,1.018 -1.0215,-0.51075 -1.1101,-0.77077 -1.6967,-1.35734 -0.4445,-0.44452 4.0874,-5.10534 5.09,-6.10801 6.1422,-4.06265 16.2352,-10.57225 22.0567,-4.75068 2.2354,2.23537 2.3831,7.80469 6.4474,7.80469 1.6043,0 7.1583,4.03968 8.8227,2.37533 2.8457,-2.84567 -7.1728,-2.28171 -6.108,-4.41134 0.4416,-0.88326 4.6749,-3.99622 5.7686,-5.09001 2.3573,-2.35728 1.2424,-4.97505 4.0721,-7.80468 2.1887,-2.18877 5.2345,0 7.8046,0 1.0356,0 4.9877,-4.30903 5.4294,-4.75068 1.0622,-1.06218 3.726,3.06062 2.7147,4.07201 -0.4121,0.41206 -2.7147,3.37024 -2.7147,4.41134 0,1.47446 4.1682,-2.036 6.4473,-2.036 3.2489,0 5.2175,-2.84217 6.7867,-4.41134 2.8751,-2.87508 5.1841,-2.62054 8.4834,0.67867 1.602,1.60206 8.0512,-1.4806 9.162,-2.03601 3.6744,-1.83719 5.8513,8.4007 8.144,6.10801 0.4481,-0.44812 1.6608,-0.607 2.036,-1.35733 1.0797,-2.15941 1.0565,-5.12849 3.054,-7.12602 1.0034,-1.00336 1.7578,-1.75776 2.7147,-2.71467 0.8494,-0.84941 2.426,-0.72931 3.054,-1.35733 1.2155,-1.21549 1.2243,-3.2603 2.3753,-4.41135 0.6857,-0.68567 3.3678,-0.65307 3.3934,-0.67866 0.8548,-0.85484 1.2218,-1.90057 2.036,-2.71468 0.4606,-0.46068 8.2215,5.01251 8.8226,4.41135 1.1048,-1.10481 -0.8268,-3.24513 -0.6786,-3.39334 2.02,-2.02004 5.6293,-2.98435 8.4833,-4.41135 2.4625,-1.23123 3.9321,-2.81439 6.4474,-4.072 1.0564,-0.52822 10.1862,-3.0478 11.5373,-1.69667 0.2457,0.24568 -0.6786,2.20306 -0.6786,2.71467 0,0.93274 2.7146,-0.25407 2.7146,0.67867 0,1.49052 -2.2476,2.29131 -1.3573,4.072 0.6089,1.21775 3.6964,3.42964 5.09,2.03601 1.1559,-1.1559 -1.4102,-3.1069 -2.036,-3.73268 -0.212,-0.21201 -0.212,-4.878 0,-5.09001 0.5931,-0.59306 7.3345,-4.88156 6.108,-6.10801 -1.2595,-1.2595 -3.8191,0.93158 -5.4293,-0.67867 -1.1845,-1.18448 -2.4728,-5.21096 0,-6.44734 0.8897,-0.44486 4.1349,0.27639 4.7506,-0.33934 0.8389,-0.83881 7.3803,-1.61157 7.4654,-1.69667 0.3903,-0.3903 1.3482,-0.32112 1.6967,-1.018 0.1599,-0.31993 -0.018,-1.018 0.3393,-1.018 1.1427,0 0.111,3.27604 0.3393,3.73267 0.2513,0.50249 2.9317,5.55165 4.7507,3.73268 0.6043,-0.6043 1.6278,-0.60978 2.3753,-1.35734 0.6344,-0.63436 0.3837,-1.74098 1.018,-2.37534 1.0198,-1.0197 1.8345,-1.83448 2.7147,-2.71467 0.6859,-0.68583 -5.0233,-2.44204 -3.054,-4.41134 1.0022,-1.00222 7.9979,-3.05401 9.8407,-3.05401 1.0001,0 0.2984,3.05401 2.036,3.05401 2.3498,0 1.0227,-3.05872 2.036,-4.07201 2.0442,-2.0442 8.2977,-2.37534 11.8767,-2.37534 3.1788,0 3.9404,-0.20769 5.4293,-1.69667 0.6821,-0.68201 3.6071,0.67867 3.0541,0.67867 -0.073,0 0.5854,-0.83161 0.6786,-1.018 0.3122,-0.6243 0.5777,-2.71467 1.3574,-2.71467 0.4454,0 3.2424,-1.8476 3.7326,-1.35734 2.5943,2.5943 -6.2457,8.41936 -6.7867,9.50135 -0.8975,1.79518 3.4149,4.38985 4.7507,3.05401 2.8312,-2.83121 6.9321,-7.12602 10.8587,-7.12602 2.3479,0.4693 8.1837,-6.74704 7.8047,-7.12601 -1.6697,-1.66974 -6.6582,-0.21086 -7.4654,-1.018 -0.1667,-0.16675 1.1428,-3.17872 1.6967,-3.73268 1.3587,-1.35867 -0.6587,-4.09198 0.6787,-5.42934 2.7978,-2.79778 4.7832,2.74719 5.4293,3.39334 1.0317,1.03167 5.4095,-6.80659 7.4654,-4.75068 3.1785,3.17853 -4.0911,12.5649 4.072,8.48335 3.1713,-1.58565 6.2858,-3.2318 8.8227,-5.76867 0.8678,-0.86781 2.8648,0.18913 3.7326,-0.67867 0.9087,-0.90869 0.1202,-4.19216 0.3394,-4.41134 0.884,-0.88398 1.0112,-2.02927 2.036,-3.05401 0.9808,-0.9808 2.4258,-2.08649 3.3933,-3.05401 1.7872,-1.78718 6.1014,3.56631 6.4474,3.39334 3.9398,-1.96991 6.6536,-5.63562 9.5013,-8.48335 0.8109,-0.81091 2.8217,5.66164 4.072,4.41135 0.7877,-0.78769 0.5133,-2.8886 1.3574,-3.73268 1.6286,-1.62866 3.14,-6.66004 6.108,-8.14401 5.9069,-2.95347 2.6444,7.05574 3.054,7.46534 0.5728,0.57286 1.9522,0.59487 2.3753,1.01801 0.689,0.68894 -0.1367,2.91729 0.6787,3.73267 1.0618,1.0618 2.4641,1.5714 4.072,2.37534 0.4725,0.23624 2.7147,-0.15478 2.7147,0.33933 0,0.35502 0.8061,2.58724 0,3.39334 -0.1258,0.12572 -0.1832,1.27927 0.3393,1.018 1.5546,-0.77732 3.054,-3.41971 3.054,-5.42934 0,-4.78168 -0.2497,-6.87627 2.7147,-9.84069 0.3393,-0.33933 1.3573,0 1.6966,-0.33933 2.7583,-2.75828 7.4714,3.06599 8.1441,4.41134"
        id="path3933"
        inkscape:connector-curvature="0" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;display:inline"
+       d="m 9.1179243,383.87436 c 6.0904327,-2.34045 -4.8150228,3.3673 2.8793447,-0.47989 0.901382,-0.45069 5.567466,-4.99013 6.23858,-4.31902 0.683653,0.68366 0.360307,3.77934 1.439672,4.31902 0.658676,0.32934 9.539636,-0.9016 6.23858,2.39946 -1.082433,1.08243 -2.786059,3.26594 -3.839126,4.31901 -0.435549,0.43555 -9.928793,4.94782 -10.077706,4.79891 -1.070686,-1.07069 2.510358,-2.76844 1.439672,-3.83913 -1.013945,-1.01394 -3.157746,-1.23818 -4.3190167,-2.39945 -0.1274091,-0.12741 -0.9767845,-8.70605 0.4798908,-2.87934"
+       id="path3859"
+       inkscape:connector-curvature="0" />
   </g>
   <g
      inkscape:groupmode="layer"
@@ -370,14 +375,14 @@
     <text
        xml:space="preserve"
        style="font-size:67.91811371px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
-       x="1023.3771"
+       x="1020.5294"
        y="598.02692"
        id="text3958"
        sodipodi:linespacing="125%"
        transform="scale(0.87102772,1.1480691)"><tspan
          sodipodi:role="line"
          id="tspan3960"
-         x="1023.3771"
+         x="1020.5294"
          y="598.02692"
          style="font-size:20px;font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:URW Chancery L;-inkscape-font-specification:URW Chancery L Bold Italic">Antioc</tspan></text>
     <path
@@ -390,18 +395,6 @@
        sodipodi:ry="23.334524"
        d="m 288.49957,272.4234 a 21.920311,23.334524 0 1 1 -43.84063,0 21.920311,23.334524 0 1 1 43.84063,0 z"
        transform="matrix(0.1191819,0,0,0.10840756,855.29358,637.71513)" />
-    <text
-       xml:space="preserve"
-       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Sans"
-       x="847.15155"
-       y="829.61218"
-       id="text4070"
-       sodipodi:linespacing="125%"><tspan
-         sodipodi:role="line"
-         id="tspan4072"
-         x="847.15155"
-         y="829.61218"
-         style="font-size:20px;font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:URW Chancery L;-inkscape-font-specification:URW Chancery L Bold Italic">Irondale</tspan></text>
     <path
        sodipodi:type="arc"
        style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:18.36700058;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;display:inline"
@@ -501,11 +494,6 @@
          x="1186.5385"
          y="643.69489"
          style="font-size:20px;font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:URW Chancery L;-inkscape-font-specification:URW Chancery L Bold Italic">Okashu</tspan></text>
-    <path
-       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;display:inline"
-       d="m 9.1179243,383.87436 c 6.0904327,-2.34045 -4.8150228,3.3673 2.8793447,-0.47989 0.901382,-0.45069 5.567466,-4.99013 6.23858,-4.31902 0.683653,0.68366 0.360307,3.77934 1.439672,4.31902 0.658676,0.32934 9.539636,-0.9016 6.23858,2.39946 -1.082433,1.08243 -2.786059,3.26594 -3.839126,4.31901 -0.435549,0.43555 -9.928793,4.94782 -10.077706,4.79891 -1.070686,-1.07069 2.510358,-2.76844 1.439672,-3.83913 -1.013945,-1.01394 -3.157746,-1.23818 -4.3190167,-2.39945 -0.1274091,-0.12741 -0.9767845,-8.70605 0.4798908,-2.87934"
-       id="path3859"
-       inkscape:connector-curvature="0" />
     <path
        sodipodi:type="arc"
        style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:18.36700058;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;display:inline"
@@ -1116,6 +1104,731 @@
        sodipodi:ry="23.334524"
        d="m 288.49957,272.4234 a 21.920311,23.334524 0 1 1 -43.84063,0 21.920311,23.334524 0 1 1 43.84063,0 z"
        transform="matrix(0.1191819,0,0,0.10840756,1512.6068,501.24937)" />
+    <path
+       sodipodi:type="arc"
+       style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:18.36700058;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;display:inline"
+       id="path3986-011-3"
+       sodipodi:cx="266.57925"
+       sodipodi:cy="272.4234"
+       sodipodi:rx="21.920311"
+       sodipodi:ry="23.334524"
+       d="m 288.49957,272.4234 a 21.920311,23.334524 0 1 1 -43.84063,0 21.920311,23.334524 0 1 1 43.84063,0 z"
+       transform="matrix(0.1191819,0,0,0.10840756,445.71356,400.23862)" />
+    <text
+       xml:space="preserve"
+       style="font-size:20px;font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:URW Chancery L;-inkscape-font-specification:URW Chancery L Bold Italic"
+       x="-101.6981"
+       y="583.55878"
+       id="text3435"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan3437"
+         x="-101.6981"
+         y="583.55878">N'Gulonga</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:20px;font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:URW Chancery L;-inkscape-font-specification:URW Chancery L Bold Italic"
+       x="42.1675"
+       y="940.74231"
+       id="text3443"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan3445"
+         x="42.1675"
+         y="940.74231">Land's End</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:20px;font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:URW Chancery L;-inkscape-font-specification:URW Chancery L Bold Italic"
+       x="348.50201"
+       y="506.66504"
+       id="text4028"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan4030"
+         x="348.50201"
+         y="506.66504">Kamyrk</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:20px;font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:URW Chancery L;-inkscape-font-specification:URW Chancery L Bold Italic"
+       x="443.99902"
+       y="514.10638"
+       id="text4024"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan4026"
+         x="443.99902"
+         y="514.10638">Ilwarg</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:20px;font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:URW Chancery L;-inkscape-font-specification:URW Chancery L Bold Italic"
+       x="427.87613"
+       y="419.84961"
+       id="text4054"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan4056"
+         x="427.87613"
+         y="419.84961">Sokin</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:20px;font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:URW Chancery L;-inkscape-font-specification:URW Chancery L Bold Italic"
+       x="524.61334"
+       y="432.25183"
+       id="text4020"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan4022"
+         x="524.61334"
+         y="432.25183">Soluck</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:20px;font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:URW Chancery L;-inkscape-font-specification:URW Chancery L Bold Italic"
+       x="787.54016"
+       y="458.29645"
+       id="text4016"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan4018"
+         x="787.54016"
+         y="458.29645">Hallowthicket</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Sans"
+       x="847.15155"
+       y="834.57306"
+       id="text4070"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan4072"
+         x="847.15155"
+         y="834.57306"
+         style="font-size:20px;font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:URW Chancery L;-inkscape-font-specification:URW Chancery L Bold Italic">Irondale</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:55.08044052px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Sans"
+       x="889.35052"
+       y="725.41858"
+       id="text3423"
+       sodipodi:linespacing="125%"
+       transform="scale(0.95093732,1.051594)"><tspan
+         sodipodi:role="line"
+         x="889.35052"
+         y="725.41858"
+         id="tspan3427"
+         style="font-size:20px;font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:URW Chancery L;-inkscape-font-specification:URW Chancery L Bold Italic">Aquarius</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Sans"
+       x="747.85309"
+       y="763.39081"
+       id="text3431"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan3433"
+         x="747.85309"
+         y="763.39081"
+         style="font-size:20px;font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:URW Chancery L;-inkscape-font-specification:URW Chancery L Bold Italic">Atlas</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:20px;font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:URW Chancery L;-inkscape-font-specification:URW Chancery L Bold Italic"
+       x="802.42279"
+       y="641.84912"
+       id="text3948"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan3950"
+         x="802.42279"
+         y="641.84912">Algrem</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:20px;font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:URW Chancery L;-inkscape-font-specification:URW Chancery L Bold Italic"
+       x="979.77435"
+       y="605.88275"
+       id="text3952"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan3954"
+         x="979.77435"
+         y="605.88275">Ardsor</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:20px;font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:URW Chancery L;-inkscape-font-specification:URW Chancery L Bold Italic"
+       x="950.00903"
+       y="657.97198"
+       id="text3940"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan3942"
+         x="950.00903"
+         y="657.97198">Hoath</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:20px;font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:URW Chancery L;-inkscape-font-specification:URW Chancery L Bold Italic"
+       x="1013.2603"
+       y="654.25134"
+       id="text3956"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan3958"
+         x="1013.2603"
+         y="654.25134">Eldver</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:20px;font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:URW Chancery L;-inkscape-font-specification:URW Chancery L Bold Italic"
+       x="1103.7964"
+       y="584.79895"
+       id="text3932"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         x="1103.7964"
+         y="584.79895"
+         id="tspan3936">Portland</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:20px;font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:URW Chancery L;-inkscape-font-specification:URW Chancery L Bold Italic"
+       x="1098.8354"
+       y="533.94989"
+       id="text3960"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan3962"
+         x="1098.8354"
+         y="533.94989">Narahashi</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:20px;font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:URW Chancery L;-inkscape-font-specification:URW Chancery L Bold Italic"
+       x="1207.9749"
+       y="705.1004"
+       id="text3964"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan3966"
+         x="1207.9749"
+         y="705.1004">Aohiro</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:20px;font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:URW Chancery L;-inkscape-font-specification:URW Chancery L Bold Italic"
+       x="1283.6284"
+       y="664.1731"
+       id="text3976"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan3978"
+         x="1283.6284"
+         y="664.1731">Hamakoku</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:20px;font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:URW Chancery L;-inkscape-font-specification:URW Chancery L Bold Italic"
+       x="1355.5612"
+       y="693.93835"
+       id="text3980"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan3982"
+         x="1355.5612"
+         y="693.93835">Iwoyama</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:20px;font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:URW Chancery L;-inkscape-font-specification:URW Chancery L Bold Italic"
+       x="1308.4329"
+       y="600.92181"
+       id="text3972"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan3974"
+         x="1308.4329"
+         y="600.92181">Fukuhashi</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:20px;font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:URW Chancery L;-inkscape-font-specification:URW Chancery L Bold Italic"
+       x="1288.5892"
+       y="543.8717"
+       id="text3968"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan3970"
+         x="1288.5892"
+         y="543.8717">Sakihiro</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:20px;font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:URW Chancery L;-inkscape-font-specification:URW Chancery L Bold Italic"
+       x="1354.321"
+       y="494.26285"
+       id="text4004"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan4006"
+         x="1354.321"
+         y="494.26285">Shima</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:20px;font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:URW Chancery L;-inkscape-font-specification:URW Chancery L Bold Italic"
+       x="1443.6168"
+       y="520.3075"
+       id="text4008"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan4010"
+         x="1443.6168"
+         y="520.3075">Kitochi</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:20px;font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:URW Chancery L;-inkscape-font-specification:URW Chancery L Bold Italic"
+       x="1389.0472"
+       y="561.2348"
+       id="text3992"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan3994"
+         x="1389.0472"
+         y="561.2348">Toyokuno</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:20px;font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:URW Chancery L;-inkscape-font-specification:URW Chancery L Bold Italic"
+       x="1474.6224"
+       y="595.96094"
+       id="text3996"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan3998"
+         x="1474.6224"
+         y="595.96094">Takama</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:20px;font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:URW Chancery L;-inkscape-font-specification:URW Chancery L Bold Italic"
+       x="1489.5051"
+       y="643.08929"
+       id="text3988"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan3990"
+         x="1489.5051"
+         y="643.08929">Toyama</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:20px;font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:URW Chancery L;-inkscape-font-specification:URW Chancery L Bold Italic"
+       x="1557.7173"
+       y="588.51959"
+       id="text4000"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan4002"
+         x="1557.7173"
+         y="588.51959">Inakan</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:20px;font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:URW Chancery L;-inkscape-font-specification:URW Chancery L Bold Italic"
+       x="1558.9575"
+       y="524.02814"
+       id="text4012"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan4014"
+         x="1558.9575"
+         y="524.02814">Nagosu</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:20px;font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:URW Chancery L;-inkscape-font-specification:URW Chancery L Bold Italic"
+       x="1568.8792"
+       y="493.02264"
+       id="text3984"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan3986"
+         x="1568.8792"
+         y="493.02264">Oshu</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:20px;font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:URW Chancery L;-inkscape-font-specification:URW Chancery L Bold Italic"
+       x="925.20465"
+       y="620.76538"
+       id="text3944"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan3946"
+         x="925.20465"
+         y="620.76538">Northrun</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:20px;font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:URW Chancery L;-inkscape-font-specification:URW Chancery L Bold Italic"
+       x="545.69708"
+       y="857.64752"
+       id="text3652"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan3654"
+         x="545.69708"
+         y="857.64752">Arndale</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:20px;font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:URW Chancery L;-inkscape-font-specification:URW Chancery L Bold Italic"
+       x="353.46292"
+       y="946.94342"
+       id="text3656"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan3658"
+         x="353.46292"
+         y="946.94342">Wybrook</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:20px;font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:URW Chancery L;-inkscape-font-specification:URW Chancery L Bold Italic"
+       x="1581.2814"
+       y="651.77087"
+       id="text3668"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan3670"
+         x="1581.2814"
+         y="651.77087">Mywick</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:20px;font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:URW Chancery L;-inkscape-font-specification:URW Chancery L Bold Italic"
+       x="760.25525"
+       y="914.69769"
+       id="text3672"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan3674"
+         x="760.25525"
+         y="914.69769">Highacre</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:20px;font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:URW Chancery L;-inkscape-font-specification:URW Chancery L Bold Italic"
+       x="995.89728"
+       y="898.57483"
+       id="text3676"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan3678"
+         x="995.89728"
+         y="898.57483">Darldour</tspan><tspan
+         sodipodi:role="line"
+         x="995.89728"
+         y="923.57483"
+         id="tspan3680" /></text>
+    <text
+       xml:space="preserve"
+       style="font-size:20px;font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:URW Chancery L;-inkscape-font-specification:URW Chancery L Bold Italic"
+       x="1111.2378"
+       y="827.88226"
+       id="text3682"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan3684"
+         x="1111.2378"
+         y="827.88226">Tonsheim</tspan><tspan
+         sodipodi:role="line"
+         x="1111.2378"
+         y="852.88226"
+         id="tspan3686" /></text>
+    <text
+       xml:space="preserve"
+       style="font-size:20px;font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:URW Chancery L;-inkscape-font-specification:URW Chancery L Bold Italic"
+       x="1380.3657"
+       y="875.01062"
+       id="text3688"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan3690"
+         x="1380.3657"
+         y="875.01062">Osstrom</tspan><tspan
+         sodipodi:role="line"
+         x="1380.3657"
+         y="900.01062"
+         id="tspan3692" /></text>
+    <text
+       xml:space="preserve"
+       style="font-size:20px;font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:URW Chancery L;-inkscape-font-specification:URW Chancery L Bold Italic"
+       x="1470.9019"
+       y="743.54724"
+       id="text3694"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan3696"
+         x="1470.9019"
+         y="743.54724">Fagervik</tspan><tspan
+         sodipodi:role="line"
+         x="1470.9019"
+         y="768.54724"
+         id="tspan3698" /></text>
+    <text
+       xml:space="preserve"
+       style="font-size:20px;font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:URW Chancery L;-inkscape-font-specification:URW Chancery L Bold Italic"
+       x="-1.240221"
+       y="918.41833"
+       id="text3700"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan3702"
+         x="-1.240221"
+         y="918.41833">Takas</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:20px;font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:URW Chancery L;-inkscape-font-specification:URW Chancery L Bold Italic"
+       x="-99.217659"
+       y="723.70367"
+       id="text3704"
+       sodipodi:linespacing="125%"
+       inkscape:transform-center-x="-12.402207"><tspan
+         sodipodi:role="line"
+         id="tspan3706"
+         x="-99.217659"
+         y="723.70367">Kingali</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:20px;font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:URW Chancery L;-inkscape-font-specification:URW Chancery L Bold Italic"
+       x="133.94383"
+       y="737.34613"
+       id="text3708"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan3710"
+         x="133.94383"
+         y="737.34613">Tueha</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:20px;font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:URW Chancery L;-inkscape-font-specification:URW Chancery L Bold Italic"
+       x="159.98849"
+       y="815.48004"
+       id="text3712"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan3714"
+         x="159.98849"
+         y="815.48004">Totzal</tspan><tspan
+         sodipodi:role="line"
+         x="159.98849"
+         y="840.48004"
+         id="tspan3716" /></text>
+    <text
+       xml:space="preserve"
+       style="font-size:20px;font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:URW Chancery L;-inkscape-font-specification:URW Chancery L Bold Italic"
+       x="189.75377"
+       y="750.98853"
+       id="text3718"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan3720"
+         x="189.75377"
+         y="750.98853">Yaiji</tspan><tspan
+         sodipodi:role="line"
+         x="189.75377"
+         y="775.98853"
+         id="tspan3722" /></text>
+    <text
+       xml:space="preserve"
+       style="font-size:20px;font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:URW Chancery L;-inkscape-font-specification:URW Chancery L Bold Italic"
+       x="7.4413247"
+       y="777.0332"
+       id="text3724"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan3726"
+         x="7.4413247"
+         y="777.0332">Aztath</tspan><tspan
+         sodipodi:role="line"
+         x="7.4413247"
+         y="802.0332"
+         id="tspan3728" /></text>
+    <text
+       xml:space="preserve"
+       style="font-size:20px;font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:URW Chancery L;-inkscape-font-specification:URW Chancery L Bold Italic"
+       x="-163.70914"
+       y="692.69818"
+       id="text3730"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan3732"
+         x="-163.70914"
+         y="692.69818">Mattu</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:20px;font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:URW Chancery L;-inkscape-font-specification:URW Chancery L Bold Italic"
+       x="90.53611"
+       y="664.1731"
+       id="text3734"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan3736"
+         x="90.53611"
+         y="664.1731">Askak</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:20px;font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:URW Chancery L;-inkscape-font-specification:URW Chancery L Bold Italic"
+       x="29.765297"
+       y="542.63147"
+       id="text3738"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan3740"
+         x="29.765297"
+         y="542.63147">Aket</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:20px;font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:URW Chancery L;-inkscape-font-specification:URW Chancery L Bold Italic"
+       x="126.50252"
+       y="600.92181"
+       id="text3742"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan3744"
+         x="126.50252"
+         y="600.92181">Saqqar</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:20px;font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:URW Chancery L;-inkscape-font-specification:URW Chancery L Bold Italic"
+       x="209.59731"
+       y="541.39124"
+       id="text3746"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan3748"
+         x="209.59731"
+         y="541.39124">Marna</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:20px;font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:URW Chancery L;-inkscape-font-specification:URW Chancery L Bold Italic"
+       x="293.93231"
+       y="604.64252"
+       id="text3750"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan3752"
+         x="293.93231"
+         y="604.64252">Kahun</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:20px;font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:URW Chancery L;-inkscape-font-specification:URW Chancery L Bold Italic"
+       x="265.40723"
+       y="646.81006"
+       id="text3754"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan3756"
+         x="265.40723"
+         y="646.81006">Cutho</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:20px;font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:URW Chancery L;-inkscape-font-specification:URW Chancery L Bold Italic"
+       x="443.99902"
+       y="640.60895"
+       id="text3758"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan3760"
+         x="443.99902"
+         y="640.60895">Cuautezotl</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:20px;font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:URW Chancery L;-inkscape-font-specification:URW Chancery L Bold Italic"
+       x="337.34003"
+       y="641.84912"
+       id="text3762"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan3764"
+         x="337.34003"
+         y="641.84912">Tepochca</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:20px;font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:URW Chancery L;-inkscape-font-specification:URW Chancery L Bold Italic"
+       x="323.6976"
+       y="711.30145"
+       id="text3766"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan3768"
+         x="323.6976"
+         y="711.30145">Huaxtequixq</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:20px;font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:URW Chancery L;-inkscape-font-specification:URW Chancery L Bold Italic"
+       x="581.66351"
+       y="671.61444"
+       id="text3770"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan3772"
+         x="581.66351"
+         y="671.61444">Pomana</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:20px;font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:URW Chancery L;-inkscape-font-specification:URW Chancery L Bold Italic"
+       x="711.88666"
+       y="707.58087"
+       id="text3774"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan3776"
+         x="711.88666"
+         y="707.58087">Inkarac</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:20px;font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:URW Chancery L;-inkscape-font-specification:URW Chancery L Bold Italic"
+       x="1072.7909"
+       y="469.45844"
+       id="text3778"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan3780"
+         x="1072.7909"
+         y="469.45844">Surivik</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:20px;font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:URW Chancery L;-inkscape-font-specification:URW Chancery L Bold Italic"
+       x="711.88672"
+       y="667.8938"
+       id="text3782"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan3784"
+         x="711.88672"
+         y="667.8938">Lese</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:20px;font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:URW Chancery L;-inkscape-font-specification:URW Chancery L Bold Italic"
+       x="679.64093"
+       y="593.48047"
+       id="text3786"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan3788"
+         x="679.64093"
+         y="593.48047">Cavoie</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:20px;font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:URW Chancery L;-inkscape-font-specification:URW Chancery L Bold Italic"
+       x="1119.9193"
+       y="690.21771"
+       id="text3790"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan3792"
+         x="1119.9193"
+         y="690.21771">Marrola</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:20px;font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:URW Chancery L;-inkscape-font-specification:URW Chancery L Bold Italic"
+       x="1098.8356"
+       y="640.60889"
+       id="text3794"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan3796"
+         x="1098.8356"
+         y="640.60889">Carmerth</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:20px;font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:URW Chancery L;-inkscape-font-specification:URW Chancery L Bold Italic"
+       x="1074.0311"
+       y="705.1004"
+       id="text3798"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan3800"
+         x="1074.0311"
+         y="705.1004">Antwidd</tspan></text>
   </g>
   <g
      inkscape:groupmode="layer"
@@ -1286,13 +1999,6 @@
        sodipodi:nodetypes="ccscscssccscscssscc" />
     <path
        style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;display:inline"
-       d="m 1183.9666,652.5381 c 0.1508,0.42358 0.523,0.76123 0.9592,0.87028 0.4362,0.10905 0.9235,-0.0137 1.2559,-0.31651 0.1823,-0.16604 0.3185,-0.38217 0.3896,-0.61827 0.071,-0.23611 0.077,-0.49152 0.017,-0.73062 -0.06,-0.23911 -0.1864,-0.46124 -0.3609,-0.63544 -0.1746,-0.17419 -0.3969,-0.29996 -0.6362,-0.35976 -0.2392,-0.0598 -0.4946,-0.0535 -0.7305,0.0181 -0.236,0.0716 -0.4519,0.20819 -0.6176,0.39081 -0.1657,0.18262 -0.2807,0.41073 -0.329,0.65253 -0.048,0.24179 -0.03,0.4966 0.053,0.72889 0.1059,0.29751 0.3148,0.55308 0.5704,0.73868 0.2555,0.1856 0.5561,0.30367 0.865,0.36906 0.618,0.13079 1.2581,0.0553 1.8873,-2e-4 4.0473,-0.35712 8.1223,0.13677 12.183,0 4.6479,-0.15654 9.2227,-1.13614 13.8264,-1.79461 4.6037,-0.65848 9.3493,-0.98977 13.8622,0.13329 4.0819,1.0158 7.7713,3.16811 11.6059,4.89715 3.8345,1.72905 8.0699,3.06585 12.2063,2.3019 1.1518,-0.21272 2.2736,-0.58667 3.3227,-1.10754 0.022,2.89286 -1.2128,5.77358 -3.3227,7.75282 -1.8787,1.76233 -4.3201,2.76779 -6.6452,3.87641 -5.1477,2.45441 -9.9512,5.56504 -14.9519,8.30659 -2.7517,1.50859 -5.5637,2.90569 -8.3066,4.43019 -8.0923,4.49761 -15.5674,10.10394 -22.1509,16.61319"
-       id="path3962"
-       inkscape:path-effect="#path-effect3964"
-       inkscape:original-d="m 1183.9666,652.5381 c 0.7384,0.18459 2.3997,-0.18459 2.2151,0.55377 -0.1846,0.73836 -2.9762,-0.55377 -2.2151,-0.55377 6.2113,0 1.2196,0.056 3.3227,1.10754 1.6942,0.84715 9.1266,-1.52818 12.183,0 3.1932,1.59663 24.7915,-4.5584 27.6886,-1.66132 4.0034,4.00344 20.984,4.37083 23.8122,7.19905 0.8256,0.82552 2.2785,-0.58544 3.3227,-1.10754 -1.2112,3.07494 -1.4109,5.84106 -3.3227,7.75282 -2.0656,2.06562 -4.9999,2.23108 -6.6452,3.87641 -3.1155,3.11551 -12.8969,6.2516 -14.9519,8.30659 -1.6248,1.62484 -6.5935,2.71708 -8.3066,4.43019 -7.0169,7.01687 -17.6246,7.56048 -22.1509,16.61319"
-       inkscape:connector-curvature="0" />
-    <path
-       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;display:inline"
        d="m 1310.2269,553.96651 c 0.3243,2.85125 -0.2654,5.79941 -1.6614,8.30659 -1.4855,2.66798 -3.796,4.75837 -5.9518,6.92112 -2.1558,2.16274 -4.2541,4.54971 -5.1236,7.47698 -0.7444,2.50619 -0.5238,5.20444 -1.1076,7.75282 -0.2106,0.9194 -0.5269,1.82603 -0.5537,2.76887 -0.023,0.80197 0.1672,1.60034 0.4747,2.34135 0.3075,0.74102 0.7305,1.42882 1.1866,2.08883 2.0785,3.00746 4.8489,5.46579 7.1449,8.31065 1.148,1.42243 2.1823,2.95142 2.9095,4.62841 0.7273,1.67699 1.1403,3.51144 1.021,5.33545 -0.2055,3.14289 -1.9305,5.94699 -3.4161,8.72421 -0.7428,1.38861 -1.44,2.81324 -1.8723,4.32752 -0.4324,1.51429 -0.5914,3.13181 -0.2493,4.669 0.3508,1.57618 1.2161,3.00676 2.3104,4.19421 1.0942,1.18744 2.413,2.14704 3.7811,3.00484 8.9383,5.60456 19.7982,6.93751 29.9037,9.96792 4.0035,1.20056 8.0041,2.6965 12.1831,2.76886 2.3254,0.0403 4.6325,-0.36421 6.9487,-0.57588 2.3161,-0.21167 4.7105,-0.22078 6.8956,0.57588 1.0182,0.37122 1.9799,0.91823 2.7688,1.66132 0.9993,0.94125 1.6904,2.16286 2.2539,3.41463 0.5636,1.25177 1.0152,2.55332 1.6226,3.78442 2.0382,4.13126 5.6712,7.19738 8.8603,10.52168 1.9978,2.08243 3.8497,4.30474 5.5377,6.64528"
        id="path3978"
        inkscape:path-effect="#path-effect3980"
@@ -1327,6 +2033,18 @@
        inkscape:original-d="m 1404.1938,544.87888 c 0,-1.0442 -1.0442,-3.13261 0,-3.13261 1.0442,0 -0.7384,3.87098 0,3.13261 1.0635,-1.06349 0.7831,-4.54134 0.7831,-6.26522 0,-6.64567 -2.4287,-18.87492 -5.482,-21.92829 -1.2874,-1.28736 -6.2653,-5.92645 -6.2653,-8.61469 0,-0.82552 1.7658,0.19942 2.3495,0.78315 0.837,0.83699 10.4142,2.07449 12.5304,3.13262 5.7851,2.89253 13.6236,4.46231 20.362,7.83153 2.6434,1.32171 10.5215,-2.00902 12.5305,0 0.4294,0.42946 4.0965,2.34946 4.6989,2.34946 1.6734,0 7.4172,3.45068 7.8315,4.69892 3.1279,9.42308 21.7487,10.0304 26.6272,4.69892 2.4058,-2.62919 25.2974,-1.74854 30.543,0 5.1211,1.70703 30.9084,0.41774 33.6756,-2.34946 4.1724,-4.17241 38.1378,-43.38314 3.1326,-31.32614"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="cscscsccscsssssc" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 477.48498,431.0116 c 19.04868,9.57106 35.38499,8.68155 57.05015,8.68155 6.46479,0 14.29359,9.85967 16.12287,6.2011"
+       id="path4050"
+       inkscape:connector-curvature="0" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;display:inline"
+       d="m 1183.9666,652.5381 c 0.1508,0.42358 0.523,0.76123 0.9592,0.87028 0.4362,0.10905 0.9235,-0.0137 1.2559,-0.31651 0.1823,-0.16604 0.3185,-0.38217 0.3896,-0.61827 0.071,-0.23611 0.077,-0.49152 0.017,-0.73062 -0.06,-0.23911 -0.1864,-0.46124 -0.3609,-0.63544 -0.1746,-0.17419 -0.3969,-0.29996 -0.6362,-0.35976 -0.2392,-0.0598 -0.4946,-0.0535 -0.7305,0.0181 -0.236,0.0716 -0.4519,0.20819 -0.6176,0.39081 -0.1657,0.18262 -0.2807,0.41073 -0.329,0.65253 -0.048,0.24179 -0.03,0.4966 0.053,0.72889 0.1059,0.29751 0.3148,0.55308 0.5704,0.73868 0.2555,0.1856 0.5561,0.30367 0.865,0.36906 0.618,0.13079 1.2581,0.0553 1.8873,-2e-4 4.0473,-0.35712 8.1223,0.13677 12.183,0 4.6479,-0.15654 9.2227,-1.13614 13.8264,-1.79461 4.6037,-0.65848 9.3493,-0.98977 13.8622,0.13329 4.0819,1.0158 7.7713,3.16811 11.6059,4.89715 3.8345,1.72905 8.0699,3.06585 12.2063,2.3019 1.1518,-0.21272 2.2736,-0.58667 3.3227,-1.10754 0.022,2.89286 -1.2128,5.77358 -3.3227,7.75282 -1.8787,1.76233 -4.3201,2.76779 -6.6452,3.87641 -5.1477,2.45441 -9.9512,5.56504 -14.9519,8.30659 -2.7517,1.50859 -5.5637,2.90569 -8.3066,4.43019 -8.0923,4.49761 -15.5674,10.10394 -22.1509,16.61319"
+       id="path3962"
+       inkscape:path-effect="#path-effect3964"
+       inkscape:original-d="m 1183.9666,652.5381 c 0.7384,0.18459 2.3997,-0.18459 2.2151,0.55377 -0.1846,0.73836 -2.9762,-0.55377 -2.2151,-0.55377 6.2113,0 1.2196,0.056 3.3227,1.10754 1.6942,0.84715 9.1266,-1.52818 12.183,0 3.1932,1.59663 24.7915,-4.5584 27.6886,-1.66132 4.0034,4.00344 20.984,4.37083 23.8122,7.19905 0.8256,0.82552 2.2785,-0.58544 3.3227,-1.10754 -1.2112,3.07494 -1.4109,5.84106 -3.3227,7.75282 -2.0656,2.06562 -4.9999,2.23108 -6.6452,3.87641 -3.1155,3.11551 -12.8969,6.2516 -14.9519,8.30659 -1.6248,1.62484 -6.5935,2.71708 -8.3066,4.43019 -7.0169,7.01687 -17.6246,7.56048 -22.1509,16.61319"
+       inkscape:connector-curvature="0" />
   </g>
   <g
      inkscape:groupmode="layer"
@@ -2702,5 +3420,6 @@
   <g
      inkscape:groupmode="layer"
      id="layer7"
-     inkscape:label="Rivers" />
+     inkscape:label="Rivers"
+     style="display:inline" />
 </svg>

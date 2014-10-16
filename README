@@ -2,6 +2,10 @@ Pathfinder campaign:
 
 Change log:
 
+10/16/14
+-Added names to most cities on map.  Cleaned up some sections in People.tex
+-Added section about Augustus to People.tex
+
 5/14/14
 -Cleaned up world map, added raw map image.
 
@@ -35,7 +39,6 @@ TODO:
 
 Add Inkscape Layers for World Map
 	Label Mountains
-	Label Roads
 	Label Rivers
 	Label Cities
 	Label POIs
