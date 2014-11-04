@@ -1,6 +1,20 @@
 Pathfinder campaign:
 
+TODO:
+
+Add Inkscape Layers for World Map
+    Label Mountains
+    Label Rivers
+    Label POIs
+Add City Descriptions
+Add Faction Description
+Add Notable NPC's
+Add Boss Encounters
+
 Change log:
+11/4/14
+-Finished adding names to cities.
+-Added Braga, Last King of Ko' Rau to People
 
 10/16/14
 -Added names to most cities on map.  Cleaned up some sections in People.tex
@@ -34,15 +48,3 @@ sort of version control.
 -First draft of  Introduction
 -Started Backstory
 -Added more landmarks to map
-
-TODO:
-
-Add Inkscape Layers for World Map
-	Label Mountains
-	Label Rivers
-	Label Cities
-	Label POIs
-Add City Descriptions
-Add Faction Description
-Add Notable NPC's
-Add Boss Encounters
