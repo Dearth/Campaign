@@ -1,0 +1,46 @@
+Human
+5 pld / 3 hv
+
+Str: 16	+3	
+Dex: 11	+0
+Con: 20	+5
+Int: 10	+0
+Wis: 14	+2
+Cha: 14	+2
+
+HP:	86
+
+for: 14 = 6 + 5 + 3
+ref: 5	= 2 + 0 + 3
+wil: 11	= 6 + 2 + 3
+
+bab 8/3
+
+
+Skills:
+	
+	Knowledge(religion)	5
+
+Feats:
+	
+	Toughness
+	Cleave
+	Power Attack
+	Selective Channel 
+	Alignment Channel (evil)
+
+Abilities:
+	
+	aura of good
+	detect evil (at will)
+	smite evil (2/day: +Cha to att, ac; +pld level damage)
+	divine grace (+Cha to saves)
+	lay on hands (0.5*pld levels + Cha /day; 0.5*pld levels d6; heals fatigue)
+	aura of courage (immune to fear; allies in 10ft +4 save fear)
+	divine health (immune to disease)
+	mercy (fatigue)
+	channel positive energy (2 uses of lay on hands)
+	divine bond (weapon)
+	vindicator's shield (use channel energy to give +divine bonus to AC = to # of channel dice)
+	stigmata (0.5*vind levels bleed damage, bonus to att, damage, ac, caster level, saves)
+	faith healing (empowered healing spells on self)
