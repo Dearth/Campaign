@@ -1,5 +1,5 @@
 Human
-5 pld / 3 hv
+5 pld / 4 hv
 
 Str: 16	+3	
 Dex: 11	+0
@@ -8,15 +8,24 @@ Int: 10	+0
 Wis: 14	+2
 Cha: 14	+2
 
-HP:	86
+HP: 101 	
+AC: 25 (28)	Touch: 10 (13)	Flatfoot: 25 (28)
 
 for: 14 = 6 + 5 + 3
 ref: 5	= 2 + 0 + 3
 wil: 11	= 6 + 2 + 3
 
-bab 8/3
+bab 9/4
 
+Attacks:
+	Mwk Dagger		+13/8	1d4 + 3	
+	Short Bow		+9/+4	1d6
+	+1 Keen Cutlas	+13/8	1d6 + 4 15-20 x2
 
+Armor:
+	+2 Heavy Steel Shield ( Lion's Shield ) ( 3/day 2d6 Bite )
+	+2 Moderate Fortification Full Plate
+	
 Skills:
 	
 	Knowledge(religion)	5
@@ -28,6 +37,7 @@ Feats:
 	Power Attack
 	Selective Channel 
 	Alignment Channel (evil)
+	
 
 Abilities:
 	
@@ -44,3 +54,13 @@ Abilities:
 	vindicator's shield (use channel energy to give +divine bonus to AC = to # of channel dice)
 	stigmata (0.5*vind levels bleed damage, bonus to att, damage, ac, caster level, saves)
 	faith healing (empowered healing spells on self)
+	divine wrath( doom on crit or being crit )
+
+Spells:
+1st
+	2
+2nd
+	2
+
+Gold:
+46,000gp
