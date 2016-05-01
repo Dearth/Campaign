@@ -18,17 +18,27 @@ wil: 11	= 6 + 2 + 3
 bab 9/4
 
 Attacks:
-	Mwk Dagger		+13/8	1d4 + 3	
-	Short Bow		+9/+4	1d6
-	+1 Keen Cutlas	+13/8	1d6 + 4 15-20 x2
+	Mwk Dagger			+13/8	1d4 + 3	
+	Short Bow			+9/+4	1d6
+	+1 Keen Cutlass		+13/8	1d6 + 4 15-20 x2
 
 Armor:
 	+2 Heavy Steel Shield ( Lion's Shield ) ( 3/day 2d6 Bite )
 	+2 Moderate Fortification Full Plate
 	
-Skills:
-	
-	Knowledge(religion)	5
+Skills: (5)
+
+	Climb
+	Diplomacy				10	= 5+2+3			
+	Handle Animal
+	Heal				
+	Intimidate
+	Knowledge(nobility)		4	= 1+0+3
+	Knowledge(planes)		4	= 1+0+3
+	Knowledge(religion)		8	= 5+0+3
+	Sense Motive			8	= 3+2+3
+	Spellcraft				5	= 2+0+3
+	Swim					
 
 Feats:
 	
@@ -58,9 +68,18 @@ Abilities:
 
 Spells:
 1st
-	2
+	3
 2nd
 	2
 
+Gear:
+Bedroll
+Torch x3
+Flint and Steel
+Waterskin (4lb)
+Rations (7)
+Holy Symbol
+Backpack
+
 Gold:
-46,000gp
+100 gp
